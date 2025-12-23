@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "bun run dist/index.js",
+    "dev": "tsc && bun run dist/index.js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

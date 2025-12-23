@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brandon Argel Verdejo Domínguez <brandargel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/camera": "^4.1.4",
+    "axios": "^1.3.5",
+    "class-validator": "^0.14.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "ts-node": "^10.9.1"
+  }
+}
